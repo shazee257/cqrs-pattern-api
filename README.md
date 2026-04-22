@@ -27,7 +27,7 @@ cp .env.example .env
 
 ```env
 PORT=4000
-MONGODB_URI=mongodb+srv://dev:hBlkdcjq8v5hhYPl@cluster0.oofzv.mongodb.net/cqrs1
+MONGODB_URI=mongodb://127.0.0.1:27017/
 WRITE_DB_NAME=cqrs_write
 READ_DB_NAME=cqrs_read
 ```
